@@ -44,6 +44,12 @@ nav{
   background: url(../images/github.svg);
   width: 28px;
   height: 28px;
+  transition:all 0.2s;
+  opacity:1;
+}
+
+.logo:hover{
+  opacity: 0.6;
 }
 
 .upload-image {
