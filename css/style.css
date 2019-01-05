@@ -7,11 +7,43 @@
   border: 0;
   box-sizing: border-box;
 }
+
+
 body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
   background: url(../images/white-waves.png);
+}
+
+nav{
+  height: 72px;
+  background: #272727;
+}
+
+.navRoot{
+  position: relative;
+  height: 72px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.title{
+  position: absolute;
+  top: 26px;
+  left: 0;
+  background: url(../images/title.svg);
+  width: 324px;
+  height: 18px;
+}
+
+.logo{
+  position: absolute;
+  top: 22px;
+  right: 0;
+  background: url(../images/github.svg);
+  width: 28px;
+  height: 28px;
 }
 
 .upload-image {
@@ -36,7 +68,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,calc(-50% + 36px),0);
   border-radius: 8px;
   -webkit-box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3);
   box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3);
@@ -72,5 +104,5 @@ canvas {
 }
 
 .dg.ac{
-  transform: translate3d(calc(-50vw + 550px),calc(50vh - 360px),0);
+  transform: translate3d(calc(-50vw + 550px),calc(50vh - 324px),0);
 }
