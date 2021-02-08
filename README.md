@@ -9,3 +9,7 @@ A web project explained how to draw sketch smooth corner in web
 ### Android version
 
 [sketch-smooth-corner-android](https://github.com/MartinRGB/sketch-smooth-corner-android)
+
+### Related Project
+
+[Figma_Squircles_Approximation](https://github.com/MartinRGB/Figma_Squircles_Approximation)
