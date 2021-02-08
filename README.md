@@ -10,6 +10,6 @@ A web project explained how to draw sketch smooth corner in web
 
 [sketch-smooth-corner-android](https://github.com/MartinRGB/sketch-smooth-corner-android)
 
-### Related Project
+### Figma version
 
 [Figma_Squircles_Approximation](https://github.com/MartinRGB/Figma_Squircles_Approximation)
